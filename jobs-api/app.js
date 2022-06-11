@@ -35,7 +35,9 @@ app.use(xss());
 // extra packages
 
 // routes
-
+app.get('/', (req,res)=>{
+  res.send('welcome to jobs-api')
+})
 // domain/api/v1/auth/login
 // domain/api/v1/auth/register
 app.use("/api/v1/auth", authRouter);

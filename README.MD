@@ -1,4 +1,4 @@
-##### Deployment: https://jobs-api-shreyansh.herokuapp.com/
+##### Deployment: https://jobs-api-ldan.onrender.com
 #### Project Setup
 
 In order to spin up the project, in the root create .env with these three variables, with your own values.
